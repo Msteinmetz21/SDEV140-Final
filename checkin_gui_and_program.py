@@ -374,7 +374,7 @@ class HOTEL_MANGMENT_checkin:
         self.Message3.configure(foreground="#000000")
         self.Message3.configure(highlightbackground="#ffffff")
         self.Message3.configure(highlightcolor="black")
-        self.Message3.configure(text='''CHECK INN''')
+        self.Message3.configure(text='''CHECK IN''')
         self.Message3.configure(width=347)
 
         self.menubar = Menu(root,font=font9,bg=_bgcolor,fg=_fgcolor)
