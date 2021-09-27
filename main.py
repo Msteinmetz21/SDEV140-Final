@@ -85,7 +85,7 @@ class HOTEL_MANAGEMENT:
         self.Button2.configure(highlightbackground="#d9d9d9")
         self.Button2.configure(highlightcolor="black")
         self.Button2.configure(pady="0")
-        self.Button2.configure(text='''1.CHECK INN''')
+        self.Button2.configure(text='''1.CHECK IN''')
         self.Button2.configure(width=566)
         self.Button2.configure(command=click_checkinn)
 
