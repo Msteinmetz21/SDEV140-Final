@@ -149,16 +149,16 @@ class HOTEL_MANGMENT_checkin:
         def tor(self):
 
             if self.ch == 1:
-                self.price = self.price + (2000 * self.no_of_days)
+                self.price = self.price + (200 * self.no_of_days)
                 m[0] = 1
             elif self.ch == 2:
-                self.price = self.price + (1500 * self.no_of_days)
+                self.price = self.price + (150 * self.no_of_days)
                 m[0] = 2
             elif self.ch == 3:
-                self.price = self.price + (1000 * self.no_of_days)
+                self.price = self.price + (100 * self.no_of_days)
                 m[0] = 3
             elif self.ch == 4:
-                self.price = self.price + (1700 * self.no_of_days)
+                self.price = self.price + (170 * self.no_of_days)
                 m[0] = 4
 
         def payment_option(self):
