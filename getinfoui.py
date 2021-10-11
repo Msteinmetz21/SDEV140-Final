@@ -79,7 +79,7 @@ class HOTEL_MANAGEMENT:
                         print("\n")
                         print("MOBILE NO.-", "  ", s.mobile_no)
                         print("\n")
-                        print("HIS TOTAL BILL IS Rs.", s.price)
+                        print("HIS TOTAL BILL IS $", s.price)
                     elif EOFError:
                         if n == 0:
                             print("NO GUEST IN ROOM ", self.gettininfo)
